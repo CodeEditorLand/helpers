@@ -1,16 +1,16 @@
 {
-	"name": "@swc/helpers",
 	"description": "",
-	"sideEffects": false,
-	"main": "lib/index.js",
-	"module": "src/index.js",
-	"scripts": {
-		"build": "swc -V && swc src -d lib",
-		"prepublishOnly": "swc src -d lib"
-	},
 	"devDependencies": {
 		"@swc/cli": "0.4.0",
 		"@swc/core": "1.7.26"
 	},
-	"esnext": "src/index.js"
+	"esnext": "src/index.js",
+	"main": "lib/index.js",
+	"module": "src/index.js",
+	"name": "@swc/helpers",
+	"scripts": {
+		"build": "swc -V && swc src -d lib",
+		"prepublishOnly": "swc src -d lib"
+	},
+	"sideEffects": false
 }
