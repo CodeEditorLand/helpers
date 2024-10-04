@@ -1,11 +1,15 @@
 export default function _iterableToArrayLimitLoose(arr, i) {
-  var _arr = [];
+	var _arr = [];
 
-  for (var _iterator = arr[Symbol.iterator](), _step; !(_step = _iterator.next()).done;) {
-    _arr.push(_step.value);
+	for (
+		var _iterator = arr[Symbol.iterator](), _step;
+		!(_step = _iterator.next()).done;
 
-    if (i && _arr.length === i) break;
-  }
+	) {
+		_arr.push(_step.value);
 
-  return _arr;
+		if (i && _arr.length === i) break;
+	}
+
+	return _arr;
 }
