@@ -2,7 +2,7 @@
 	"description": "",
 	"devDependencies": {
 		"@swc/cli": "0.4.0",
-		"@swc/core": "1.7.39"
+		"@swc/core": "1.7.40"
 	},
 	"esnext": "src/index.js",
 	"main": "lib/index.js",
