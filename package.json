@@ -1,13 +1,14 @@
 {
+	"dependencies": {},
 	"description": "",
 	"devDependencies": {
-		"@swc/cli": "0.5.2",
-		"@swc/core": "1.10.0"
+		"@codeeditorland/cli": "0.5.2",
+		"@codeeditorland/core": "1.10.0"
 	},
 	"esnext": "src/index.js",
 	"main": "lib/index.js",
 	"module": "src/index.js",
-	"name": "@swc/helpers",
+	"name": "@codeeditorland/helpers",
 	"scripts": {
 		"build": "swc -V && swc src -d lib",
 		"prepublishOnly": "swc src -d lib"
