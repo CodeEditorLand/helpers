@@ -1,17 +1,17 @@
 {
-	"dependencies": {},
+	"name": "@codeeditorland/helpers",
 	"description": "",
-	"devDependencies": {
-		"@codeeditorland/cli": "0.0.1",
-		"@codeeditorland/core": "0.0.1"
-	},
-	"esnext": "src/index.js",
+	"sideEffects": false,
 	"main": "lib/index.js",
 	"module": "src/index.js",
-	"name": "@codeeditorland/helpers",
 	"scripts": {
 		"build": "swc -V && swc src -d lib",
 		"prepublishOnly": "swc src -d lib"
 	},
-	"sideEffects": false
+	"dependencies": {},
+	"devDependencies": {
+		"@codeeditorland/cli": "0.0.1",
+		"@codeeditorland/core": "0.0.1"
+	},
+	"esnext": "src/index.js"
 }
